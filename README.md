@@ -19,11 +19,11 @@ This will work even on strings in languages not english!
 2. Call the `parseint` method on your wanted `string`
 
 ```js
-Console.log(parseint('four'));
-Console.log(parseint('vier'));
-Console.log(parseint('quatre'));
-Console.log(parseint('四'));
-Console.log(parseint('4'));
+Console.log(parseint('four'));    // 4
+Console.log(parseint('vier'));    // 4
+Console.log(parseint('quatre'));  // 4
+Console.log(parseint('四'));       // 4
+Console.log(parseint('4'));       // 4
 ```
 
 ## license
